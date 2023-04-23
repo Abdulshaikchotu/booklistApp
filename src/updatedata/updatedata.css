@@ -1,0 +1,13 @@
+#update {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:palegreen;
+    height: 100vh;
+}
+
+#updateitems input {
+    width: 500px;
+    height: 40px;
+}

@@ -1,0 +1,48 @@
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: palevioletred;
+}
+
+#logout{
+    width: 100px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: coral;
+    color: white;
+    cursor: pointer;
+}
+#addbtn{
+    width: 200px;
+    height: 30px;
+    /* border-radius: 10px; */
+    background-color:rgb(13, 180, 209);
+    color: white;
+    cursor: pointer;
+}
+
+
+#fetchingdata{
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#updatebtn{
+    margin-left: 200px;
+    width: 100px;
+    height: 30px;
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+}
+
+#deletebtn{
+    width: 100px;
+        height: 30px;
+        background-color:red;
+        color:white;
+        cursor: pointer;
+}
