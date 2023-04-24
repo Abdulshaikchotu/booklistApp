@@ -41,7 +41,7 @@ let handlelogout=(e)=>{
 }
 let handledelete=(id)=>{
   console.log("ok");
-     let url=`http://localhost:5000/afterlogin/updatedata/${id}`
+     let url=`https://booklist-backend-7a7u.onrender.com/afterlogin/updatedata/${id}`
      axios.delete(url,{
       headers:{
         Authorization:token
